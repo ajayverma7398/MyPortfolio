@@ -1,26 +1,4 @@
 import { Github, Twitter, Figma } from 'lucide-react';
-import LogoJavascript from '/images/logos/icon-javascript.svg';
-import LogoTypescript from '/images/logos/icon-typescript.svg';
-import LogoReact from '/images/logos/icon-react.svg';
-import LogoNextjs from '/images/logos/icon-nextjs.svg';
-import LogoNodejs from '/images/logos/icon-nodejs.svg';
-import LogoPostgreSQL from '/images/logos/icon-postgresql.svg';
-import LogoSass from '/images/logos/icon-sass.svg';
-import LogoTailwindcss from '/images/logos/icon-tailwindcss.svg';
-import LogoFigma from '/images/logos/icon-figma.svg';
-import LogoGit from '/images/logos/icon-git.svg';
-import LogoGithub from '/images/logos/icon-github.svg';
-import LogoHtml from '/images/logos/icon-html.svg';
-import LogoCss from '/images/logos/icon-css.svg';
-import LOGOMaterialUi from '/images/logos/icon-material-ui.svg';
-import LogoWipro from '/images/logos/logo-wipro.svg';
-import LogoTCL from '/images/logos/tcl-logo.jpg';
-import ProjectCompression from '/images/project-compression.png';
-import ProjectTcl from '/images/project-tcl.png';
-import ProjectRSDB from '/images/project-rsdb.png';
-import AvatarKrisztian from '/images/avatar-krisztian.png';
-import AvatarEugen from '/images/avatar-eugen.png';
-import AvatarDummy from '/images/avatar-dummy.svg';
 
 import {
   ExperienceDetails,
@@ -65,72 +43,72 @@ export const SOCIAL_LINKS = [
 export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'Javascript',
-    logo: LogoJavascript,
+    logo: '/images/logos/icon-javascript.svg',
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
   },
   {
     label: 'Typescript',
-    logo: LogoTypescript,
+    logo: '/images/logos/icon-typescript.svg',
     url: 'https://www.typescriptlang.org/',
   },
   {
     label: 'React',
-    logo: LogoReact,
+    logo: '/images/logos/icon-react.svg',
     url: 'https://react.dev/',
   },
   {
     label: 'Next.js',
-    logo: LogoNextjs,
+    logo: '/images/logos/icon-nextjs.svg',
     url: 'https://nextjs.org/',
   },
   {
     label: 'Node.js',
-    logo: LogoNodejs,
+    logo: '/images/logos/icon-nodejs.svg',
     url: 'https://nodejs.org/en',
   },
   {
     label: 'PostgreSQL',
-    logo: LogoPostgreSQL,
+    logo: '/images/logos/icon-postgresql.svg',
     url: 'https://www.postgresql.org/',
   },
   {
     label: 'Scss',
-    logo: LogoSass,
+    logo: '/images/logos/icon-sass.svg',
     url: 'https://sass-lang.com/',
   },
   {
     label: 'Tailwindcss',
-    logo: LogoTailwindcss,
+    logo: '/images/logos/icon-tailwindcss.svg',
     url: 'https://tailwindcss.com/',
   },
   {
     label: 'Material-UI',
-    logo: LOGOMaterialUi,
+    logo: '/images/logos/icon-material-ui.svg',
     url: 'https://mui.com/',
   },
   {
     label: 'Figma',
-    logo: LogoFigma,
+    logo: '/images/logos/icon-figma.svg',
     url: 'https://www.figma.com/',
   },
   {
     label: 'Git',
-    logo: LogoGit,
+    logo: '/images/logos/icon-git.svg',
     url: 'https://git-scm.com/',
   },
   {
     label: 'GitHub',
-    logo: LogoGithub,
+    logo: '/images/logos/icon-github.svg',
     url: 'https://github.com/',
   },
   {
     label: 'Html',
-    logo: LogoHtml,
+    logo: '/images/logos/icon-html.svg',
     url: 'https://html.com/',
   },
   {
     label: 'Css',
-    logo: LogoCss,
+    logo: '/images/logos/icon-css.svg',
     url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
   },
 
@@ -138,7 +116,7 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoWipro,
+    logo: '/images/logos/logo-wipro.svg',
     logoAlt: 'Wipro logo',
     position: 'Project Engineer',
     startDate: new Date(2022, 3),
@@ -155,7 +133,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ],
   },
   {
-    logo: LogoTCL,
+    logo: '/images/logos/tcl-logo.jpg',
     logoAlt: 'Troop Comforts Limited logo',
     position: 'Frontend Developer',
     startDate: new Date(2024, 6),
@@ -178,7 +156,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'RSDB is an enterprise-scale retail data platform focused on modernizing legacy systems into a scalable, cloud-ready web application. The project involved UI modernization, performance improvements, and seamless integration with backend services to support dynamic retail operations.',
     url: '', // internal enterprise project
-    previewImage: ProjectRSDB,
+    previewImage: '/images/project-rsdb.png',
     technologies: [
       'React',
       'Next.js',
@@ -198,7 +176,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A centralized dashboard application designed to generate and manage dynamic business reports. The MIS Portal focuses on performance, security, and usability to support data-driven decision-making for internal stakeholders.',
     url: '', // internal enterprise application
-    previewImage: ProjectTcl,
+    previewImage: '/images/project-tcl.png',
     technologies: [
       'React',
       'Next.js',
@@ -215,7 +193,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A privacy-focused file compression application designed to efficiently compress PDFs, images, and short videos directly in the browser. The app emphasizes performance, security, and a smooth user experience without relying on server-side processing.',
     url: 'https://img-pdf-vid-compress.vercel.app/',
-    previewImage: ProjectCompression,
+    previewImage: '/images/project-compression.png',
     technologies: [
       'Next.js',
       'ReactJS',
@@ -255,21 +233,21 @@ export const PROJECTS: ProjectDetails[] = [
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
     personName: 'Krisztian Gyuris',
-    personAvatar: AvatarKrisztian,
+    personAvatar: '/images/avatar-krisztian.png',
     title: 'Founder - inboxgenie.io',
     testimonial:
       'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Ajay and will rehire in the future for Frontend development.',
   },
   {
     personName: 'Eugen Esanu',
-    personAvatar: AvatarEugen,
+    personAvatar: '/images/avatar-eugen.png',
     title: 'Founder - shosho.design',
     testimonial:
       'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
   },
   {
     personName: 'Joe Matkin',
-    personAvatar: AvatarDummy,
+    personAvatar: '/images/avatar-dummy.svg',
     title: 'Freelancer',
     testimonial:
       'Ajay was extremely easy and pleasant to work with and he truly cares about the project being a success. Ajay has a high level of knowledge and was able to work on my MERN stack application without any issues.',
