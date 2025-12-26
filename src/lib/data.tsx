@@ -1,26 +1,26 @@
 import { Github, Twitter, Figma } from 'lucide-react';
-import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
-import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
-import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
-import LogoSass from '/public/images/logos/icon-sass.svg';
-import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoGit from '/public/images/logos/icon-git.svg';
-import LogoGithub from '/public/images/logos/icon-github.svg';
-import LogoHtml from '/public/images/logos/icon-html.svg';
-import LogoCss from '/public/images/logos/icon-css.svg';
-import LOGOMaterialUi from '/public/images/logos/icon-material-ui.svg';
-import LogoWipro from '/public/images/logos/logo-wipro.svg';
-import LogoTCL from '/public/images/logos/tcl-logo.jpg';
-import ProjectCompression from '/public/images/project-compression.png';
-import ProjectTcl from '/public/images/project-tcl.png';
-import ProjectRSDB from '/public/images/project-rsdb.png';
-import AvatarKrisztian from '/public/images/avatar-krisztian.png';
-import AvatarEugen from '/public/images/avatar-eugen.png';
-import AvatarDummy from '/public/images/avatar-dummy.svg';
+import LogoJavascript from '/images/logos/icon-javascript.svg';
+import LogoTypescript from '/images/logos/icon-typescript.svg';
+import LogoReact from '/images/logos/icon-react.svg';
+import LogoNextjs from '/images/logos/icon-nextjs.svg';
+import LogoNodejs from '/images/logos/icon-nodejs.svg';
+import LogoPostgreSQL from '/images/logos/icon-postgresql.svg';
+import LogoSass from '/images/logos/icon-sass.svg';
+import LogoTailwindcss from '/images/logos/icon-tailwindcss.svg';
+import LogoFigma from '/images/logos/icon-figma.svg';
+import LogoGit from '/images/logos/icon-git.svg';
+import LogoGithub from '/images/logos/icon-github.svg';
+import LogoHtml from '/images/logos/icon-html.svg';
+import LogoCss from '/images/logos/icon-css.svg';
+import LOGOMaterialUi from '/images/logos/icon-material-ui.svg';
+import LogoWipro from '/images/logos/logo-wipro.svg';
+import LogoTCL from '/images/logos/tcl-logo.jpg';
+import ProjectCompression from '/images/project-compression.png';
+import ProjectTcl from '/images/project-tcl.png';
+import ProjectRSDB from '/images/project-rsdb.png';
+import AvatarKrisztian from '/images/avatar-krisztian.png';
+import AvatarEugen from '/images/avatar-eugen.png';
+import AvatarDummy from '/images/avatar-dummy.svg';
 
 import {
   ExperienceDetails,
@@ -178,7 +178,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'RSDB is an enterprise-scale retail data platform focused on modernizing legacy systems into a scalable, cloud-ready web application. The project involved UI modernization, performance improvements, and seamless integration with backend services to support dynamic retail operations.',
     url: '', // internal enterprise project
-    previewImage: ProjectRSDB, 
+    previewImage: ProjectRSDB,
     technologies: [
       'React',
       'Next.js',
@@ -198,7 +198,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A centralized dashboard application designed to generate and manage dynamic business reports. The MIS Portal focuses on performance, security, and usability to support data-driven decision-making for internal stakeholders.',
     url: '', // internal enterprise application
-    previewImage: ProjectTcl, 
+    previewImage: ProjectTcl,
     technologies: [
       'React',
       'Next.js',
@@ -232,8 +232,8 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'Test Automation with Playwright',
     description:
       'An automated testing suite built to validate critical user journeys of a sample e-commerce application. The project focuses on ensuring UI reliability, performance, and cross-browser consistency through robust end-to-end testing.',
-    url: '', 
-    previewImage: '', 
+    url: '',
+    previewImage: '',
     technologies: [
       'Playwright',
       'JavaScript',

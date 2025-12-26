@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import AjayFullPose from '/public/images/ajay-full-pose.jpg';
+import AjayFullPose from '/images/ajay-full-pose.jpg';
 import Tag from '@/components/data-display/tag';
 import Container from '@/components/layout/container';
 import Typography from '@/components/general/typography';
