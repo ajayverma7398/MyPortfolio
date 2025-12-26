@@ -51,3 +51,5 @@ cd your-repo
 npm install
 npm run dev
 
+## i will update it after deployment 
+
