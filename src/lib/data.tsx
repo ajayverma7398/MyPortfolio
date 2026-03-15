@@ -133,12 +133,12 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ],
   },
   {
-    logo: '/images/logos/tcl-logo.jpg',
-    logoAlt: 'Troop Comforts Limited logo',
+    logo: '/images/logos/logo-monk-nx.png',
+    logoAlt: 'Monk NX Technology logo',
     position: 'Frontend Developer',
     startDate: new Date(2024, 6),
     summary: [
-      'Working as a Frontend Developer at Troop Comforts Limited, leading frontend development for the MIS (Management Information System) Portal Dashboard and reporting directly to the Project Manager.',
+      'Working as a Frontend Developer at Monk NX Technology, leading frontend development for the MIS (Management Information System) Portal Dashboard and reporting directly to the Project Manager.',
       'Responsible for live production applications, handling UI enhancements, bug fixes, and management-driven feature requests to support business operations.',
       'Designed and developed modular, reusable UI components using React.js, Next.js, TypeScript, and Context API for scalable and maintainable frontend architecture.',
       'Integrated Auth0-based authentication to enable secure login flows and role-based access control across the application.',
@@ -176,7 +176,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A centralized dashboard application designed to generate and manage dynamic business reports. The MIS Portal focuses on performance, security, and usability to support data-driven decision-making for internal stakeholders.',
     url: '', // internal enterprise application
-    previewImage: '/images/project-tcl.png',
+    previewImage: '/images/logos/logo-monk-nx.png',
     technologies: [
       'React',
       'Next.js',
@@ -187,6 +187,19 @@ export const PROJECTS: ProjectDetails[] = [
       'Git',
       'REST APIs',
     ],
+  }, {
+    name: 'Prquro (Proquroment Management System)',
+    description:
+      'Proquro is an end-to-end B2B procurement web application that allows buyers and sellers to register, list products, create indents, request quotations (RFQ), receive quotations, and generate purchase orders within a unified system. I developed responsive frontend features using React, Next.js, JavaScript, HTML, and Tailwind CSS, and integrated them with backend REST APIs. The platform uses Auth0 for secure authentication and role-based access control, while Base64 encoding is used to handle binary data like product images. I collaborated with backend developers, QA teams, and clients in an Agile environment to deliver stable and user-friendly procurement workflows.',
+    url: '', // internal project for a client',
+    previewImage: '/images/project-prquro.png',
+    technologies: [
+      'ReactJS', 'Next.js', 'JavaScript',
+      'HTML', 'Tailwind CSS', 'Auth0',
+      'REST APIs', 'Base64 Encoding',
+      'Git', 'GitHub', 'ClickUp', 'Claude',
+    ],
+
   },
   {
     name: 'Compression App',
