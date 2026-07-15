@@ -20,6 +20,8 @@ const AboutMeSection = () => {
             <Image
               src="/images/ajay-full-pose.jpg"
               alt="Fullpose of Ajay"
+              width={400}
+              height={480}
               className="absolute z-10 h-[360px] w-[280px] border-8 border-gray-50 max-md:left-5 md:right-0 md:top-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"
               style={{ objectFit: 'cover' }}
             ></Image>
