@@ -18,6 +18,7 @@ const ProjectDetails = ({
   technologies,
   url,
   previewImage,
+  secondaryPreviewImage,
   layoutType = 'default',
 }: ProjectDetailsProps) => {
   return (
@@ -25,20 +26,34 @@ const ProjectDetails = ({
       {/* Image */}
       <div
         className={mergeClasses(
-          'flex items-center justify-center border-gray-100 bg-gray-50 p-8 dark:bg-gray-200 max-md:rounded-t-xl md:w-1/2 lg:p-12',
+          'flex flex-col items-start justify-center gap-6 border-gray-100 bg-gray-50 p-8 dark:bg-gray-200 max-md:rounded-t-xl md:w-1/2 lg:p-12',
           layoutType === 'default'
             ? 'md:rounded-l-xl md:border-r'
             : 'md:order-last md:rounded-r-xl md:border-l'
         )}
       >
-        <Link noCustomization href={url} externalLink>
+        <Link noCustomization href={url} externalLink className="w-full">
           <Image
             src={previewImage}
             alt={`${name} preview`}
-            className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
+            width={480}
+            height={320}
+            className="h-auto w-full rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
             style={{ objectFit: 'cover' }}
           />
         </Link>
+        {secondaryPreviewImage && (
+          <Link noCustomization href={url} externalLink className="w-full">
+            <Image
+              src={secondaryPreviewImage}
+              alt={`${name} secondary preview`}
+              width={480}
+              height={320}
+              className="h-auto w-full rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
+              style={{ objectFit: 'cover' }}
+            />
+          </Link>
+        )}
       </div>
 
       {/* Content */}
@@ -54,7 +69,7 @@ const ProjectDetails = ({
         <Typography>{description}</Typography>
         <div className="flex flex-wrap gap-2">
           {technologies?.map((technology, index) => (
-            <Tag key={index} label={technology} />
+            <Tag key={index} label={technology} colorIndex={index} />
           ))}
         </div>
         <Link

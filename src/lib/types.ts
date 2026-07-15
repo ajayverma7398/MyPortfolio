@@ -23,8 +23,9 @@ export interface ProjectDetails {
   description: string;
   url: string;
   previewImage: string | StaticImageData;
+  secondaryPreviewImage?: string | StaticImageData;
   technologies: string[];
-  
+
 }
 
 export type TestimonialDetails = {
