@@ -14,6 +14,8 @@ const TechDetails = ({ url, logo, darkModeLogo, label }: TechDetails) => {
           src={logo}
           srcForDarkMode={darkModeLogo}
           alt={label}
+          width={40}
+          height={40}
           className="h-10 w-10 transition-transform duration-300 md:hover:scale-110"
         />
       </Link>
